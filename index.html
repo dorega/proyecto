@@ -1,0 +1,208 @@
+ <!DOCTYPE html>
+<html lang="gl">
+
+<head>
+  <title>Portada</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+   <div class="container">
+    <div class="jumbotron">
+      <h1>Pescados Domínguez</h1>
+    </div>
+  <div class="container">
+    <div class="container">
+      <h2>Mejores recetas con nuestros pescados</h2>
+      <ul class="nav nav-tabs">
+        <li class=>
+          <a class="nav-link" href="Sardina.html">Sardinas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Lubina.html">Lubina</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Sargo.html">Sargo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Lenguado.html">Lenguado</a>
+        </li>
+      </ul>
+    </div>
+
+     <div id="demo" class="carousel slide" data-ride="carousel">
+    ​
+    <!-- Indicadores: raias debaixo das imaxes-->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0"></li>
+      <li data-target="#demo" data-slide-to="1" class="active"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+
+    <!-- Slideshow -->
+    <div class="carousel-inner">
+      <!-- Imaxe enooorme -->
+      <div class="carousel-item">
+        <img src="imaxes/sargo.jpg" alt="Aquí debería saír a miña imaxe" width="50%" height="50%">
+      </div>
+
+       <div class="carousel-item">
+        <img src="imaxes/lenguado.jpg" alt="Aquí debería saír a miña imaxe" width="50%" height="50%">
+      </div>
+
+       <div class="carousel-item">
+        <img src="imaxes/lubina.jpg" alt="Aquí debería saír a miña imaxe" width="50%" height="50%">
+      </div>
+
+      <!--    Quen leva active é o primeiro que sae-->      
+      <div class="carousel-item active" >
+        <img src="imaxes/sardina.jpg" alt="Aquí debería saír a miña imaxe"
+        width="50%" height="50%">
+      </div>
+
+    </div>
+
+    <!-- Frechiñas dereita e esquerda -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+<br>
+
+
+
+<h3>Lugares de venta</h3>
+   
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Localizacion</th>
+          <th>Horario</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pescados Domínguez</td>
+          <td>A Guarda</td>
+          <td>Lunes a Sabado, llamada previa(654235528)</td>
+        </tr>
+        <tr>
+          <td>Lonja</td>
+          <td>A Guarda</td>
+         <td>Lunes a Sabado de 9:00 a 2:00</td>
+        </tr>
+       <tr>
+          <td>A domicilio</td>
+          <td>Galicia</td>
+         <td>Lunes a Sabado de 8:00 a 1:00  2:00 a 5:00 </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+    <br>
+
+
+    <h3>Precios de venta</h3>
+
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Pescado</th>
+          <th>Peso</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sardinas</td>
+          <td>1 Kg</td>
+          <td>3,99€</td>
+        </tr>
+        <tr>
+          <td>Sargo</td>
+          <td>1 Kg</td>
+         <td>23,31€</td>
+        </tr>
+       <tr>
+          <td>Lenguado</td>
+          <td>1 Kg</td>
+         <td>38€</td>
+        </tr>
+        <tr>
+          <td>Lubina</td>
+          <td>1 Kg</td>
+         <td>51,03€</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="jumbotron">
+      <h1>Que pescados quieres que traigamos?</h1>
+      <div class="container-fluid">
+    
+<div class="custom-control custom-radio">
+  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio1">Dorada</label>
+</div>
+<div class="custom-control custom-radio">
+  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio2">Pinto Gallego</label>
+</div>
+<div class="custom-control custom-radio">
+  <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+  <label class="custom-control-label" for="customRadio3">Besugo</label>
+</div>
+</div>
+</div>
+
+
+
+<form action="/html/tags/html_form_tag_action.cfm">
+<fieldset class="form-group">
+<label for="first_name">Nombre</label>
+<input type="text" class="form-control" id="first_name" name="first_name">
+</fieldset>
+<fieldset class="form-group">
+<label for="last_name">Apellidos</label>
+<input type="text" class="form-control" id="last_name" name="last_name">
+</fieldset>
+<button type="submit" class="btn btn-primary">Enviar</button>
+</form>
+
+<br>
+
+
+
+<br>
+
+ <div class="container">
+      
+          <br>
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="portada.html">Principal</a></li>
+        <li class="page-item"><a class="page-link" href="Sardina.html">Sardina</a></li>
+        <li class="page-item"><a class="page-link" href="Sargo.html">Sargo</a></li>
+        <li class="page-item"><a class="page-link" href="Lubina.html">Lubina</a></li>
+        <li class="page-item"><a class="page-link" href="Lenguado.html">Lenguado</a></li>
+    </div>
+    <!-- fin Páxinas en cadriños-->
+  </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
